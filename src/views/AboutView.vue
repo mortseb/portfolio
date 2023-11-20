@@ -1,15 +1,10 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<script setup>
+import PhotoPerso from '../components/PhotoPerso.vue'
+import AboutContent from '../components/AboutContent.vue'
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+</script>
+
+<template>
+<PhotoPerso></PhotoPerso>
+<AboutContent></AboutContent>
+</template>
