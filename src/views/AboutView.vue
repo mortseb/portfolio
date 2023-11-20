@@ -5,6 +5,6 @@ import AboutContent from '../components/AboutContent.vue'
 </script>
 
 <template>
-<PhotoPerso></PhotoPerso>
-<AboutContent></AboutContent>
+<PhotoPerso />
+<AboutContent />
 </template>
