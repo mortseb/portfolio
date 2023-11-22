@@ -8,10 +8,12 @@ import FooterBar from './components/FooterBar.vue'
 
 <template class="dark">
   <header>
-    <NavBar></NavBar>
+    <NavBar />
   </header>
-  <main><RouterView></RouterView></main>
-    <FooterBar></FooterBar>
+  <main>
+    <RouterView />
+  </main>
+  <FooterBar />
 </template>
 
 
