@@ -1,16 +1,45 @@
-<script setup></script>
+<script setup>
+</script>
 <template>
-    <a target="_blank" href="https://mortseb.com"
-        class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <main class="main flow">
+        <h1 class="main__heading">Pricing</h1>
+        <div class="main__cards cards">
+            <div class="cards__inner">
+                <div class="cards__card card">
+                    <h2 class="card__heading">Basic</h2>
+                    <p class="card__price">$9.99</p>
+                    <ul role="list" class="card__bullets flow">
+                        <li>Access to standard workouts and nutrition plans</li>
+                        <li>Email support</li>
+                    </ul>
+                    <a href="#basic" class="card__cta cta">Get Started</a>
+                </div>
 
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mortseb.com</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Site personnel reprenant l'ensemble de mes projets.</p>
-    </a>
+                <div class="cards__card card">
+                    <h2 class="card__heading">Pro</h2>
+                    <p class="card__price">$19.99</p>
+                    <ul role="list" class="card__bullets flow">
+                        <li>Access to advanced workouts and nutrition plans</li>
+                        <li>Priority Email support</li>
+                        <li>Exclusive access to live Q&A sessions</li>
+                    </ul>
+                    <a href="#pro" class="card__cta cta">Upgrade to Pro</a>
+                </div>
 
-    <a target="_blank" href="https://mortseb.com/pitchboss/view/connection.php"
-        class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="cards__card card">
+                    <h2 class="card__heading">Ultimate</h2>
+                    <p class="card__price">$29.99</p>
+                    <ul role="list" class="card__bullets flow">
+                        <li>Access to all premium workouts and nutrition plans</li>
+                        <li>24/7 Priority support</li>
+                        <li>1-on-1 virtual coaching session every month</li>
+                        <li>Exclusive content and early access to new features</li>
+                    </ul>
+                    <a href="#ultimate" class="card__cta cta">Go Ultimate</a>
+                </div>
+            </div>
 
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PitchBoss</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">TFE 2023/2024</p>
-    </a>
+            <div class="overlay cards__inner"></div>
+        </div>
+    </main>
 </template>
